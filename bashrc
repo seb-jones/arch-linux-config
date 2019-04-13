@@ -50,3 +50,6 @@ alias nrw='npm run watch'
 #export GIT_PS1_SHOWDIRTYSTATE=1
 #export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e[1;33m$(__git_ps1 " (%s)")\e[m\n\e[1m\$\e[m "
 export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e\n\e[1m\$\e[m "
+
+# Initialize SSH Keychain
+eval $(keychain --noask --nogui --eval id_rsa)
