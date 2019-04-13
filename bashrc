@@ -52,4 +52,4 @@ alias nrw='npm run watch'
 export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e\n\e[1m\$\e[m "
 
 # Initialize SSH Keychain
-eval $(keychain --nogui --eval id_rsa)
+eval $(keychain --noask --nogui --eval id_rsa)
