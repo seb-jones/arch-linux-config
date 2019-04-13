@@ -14,6 +14,7 @@ alias gs='git status'
 . /usr/share/git/completion/git-completion.bash
 
 # Custom Prompt
-. /usr/share/git/completion/git-prompt.sh
-export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e[1;33m$(__git_ps1 " (%s)")\e[m\n\e[1m\$\e[m "
+#. /usr/share/git/completion/git-prompt.sh
+#export GIT_PS1_SHOWDIRTYSTATE=1
+#export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e[1;33m$(__git_ps1 " (%s)")\e[m\n\e[1m\$\e[m "
+export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e\n\e[1m\$\e[m "
