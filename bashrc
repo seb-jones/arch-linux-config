@@ -41,6 +41,8 @@ alias yw='yarn watch'
 alias ni='npm install'
 alias nrd='npm run dev'
 alias nrw='npm run watch'
+alias sysh='shutdown now'
+alias sysu='systemctl suspend'
 
 # Enable git tab completion
 . /usr/share/git/completion/git-completion.bash
