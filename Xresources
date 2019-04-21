@@ -35,3 +35,4 @@ urxvt*color7:      #eff0eb
 urxvt*color15:     #eff0eb
 
 URxvt.scrollBar: false
+URxvt.saveLines: 10000
