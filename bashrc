@@ -49,20 +49,19 @@ alias sysh='shutdown now'
 alias sysu='systemctl suspend'
 
 # Enable git tab completion
-. /usr/share/git/completion/git-completion.bash
+source ~/.config/git-completion.bash
 
 # Custom Prompt
-#. /usr/share/git/completion/git-prompt.sh
-#export GIT_PS1_SHOWDIRTYSTATE=1
-#export PS1="\n\e[1m[\u] \e[3;34m\w \e[m\e[1;33m$(__git_ps1 " (%s)")\e[m\n\e[1m\$\e[m "
-
 BOLD="\[$(tput bold)\]"
 ITALIC="\[$(tput sitm)\]"
 BLUE="\[$(tput setaf 4)\]"
+YELLOW="\[$(tput setaf 3)\]"
 RESET="\[$(tput sgr0)\]"
+GIT="\$(__git_ps1)"
 
-export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}\n${BOLD}\$${RESET} "
-
+source ~/.config/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}${GIT}\n${BOLD}\$${RESET} "
 
 # Initialize SSH Keychain
 eval $(keychain --noask --nogui --eval id_rsa)
