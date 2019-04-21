@@ -62,6 +62,3 @@ GIT="\$(__git_ps1)"
 source ~/.config/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}${GIT}\n${BOLD}\$${RESET} "
-
-# Initialize SSH Keychain
-eval $(keychain --noask --nogui --eval id_rsa)
