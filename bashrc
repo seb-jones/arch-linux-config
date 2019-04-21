@@ -61,4 +61,5 @@ GIT="\$(__git_ps1)"
 
 source ~/.config/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}${GIT}\n${BOLD}\$${RESET} "
+export GIT_PS1_SHOWUPSTREAM=1
+export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}${BOLD}${YELLOW}${GIT}${RESET}\n${BOLD}\$${RESET} "
