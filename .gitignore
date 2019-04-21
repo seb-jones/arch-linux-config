@@ -8,4 +8,5 @@
 !Xresources
 !git-prompt.sh
 !git-completion.bash
-!elinks/
+!elinks/bookmarks
+!elinks/elinks.conf
