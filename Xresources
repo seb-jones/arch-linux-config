@@ -37,3 +37,5 @@ urxvt*skipBuiltinGlyphs:    true
 urxvt*linespace:            0
 urxvt.scrollBar: false
 urxvt.saveLines: 10000
+urxvt.cursorBlink: true
+urxvt.pointerBlank: true
