@@ -51,6 +51,7 @@ alias nrw='npm run watch'
 alias sysh='shutdown now'
 alias sysu='systemctl suspend'
 alias elinks='elinks -config-dir ~/.config/elinks'
+alias mycli='mycli --myclirc ~/.config/myclirc -u root'
 
 # Enable git tab completion
 source ~/.config/git-completion.bash
