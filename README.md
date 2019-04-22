@@ -24,7 +24,7 @@ Note that the path must be absolute. In addition, you will need to change some a
 * `~/.config/pacman-hooks/generate-package-list.hook`
 
 #### URxvt
-Insert this at the top of `~/.xinitrc`:
+Insert this to the top of `~/.xinitrc`:
 ```
 [[ -f ~/.config/Xresources ]] && xrdb -merge ~/.config/Xresources
 ```
