@@ -28,6 +28,7 @@ flex
 gawk
 gcc
 gcc-libs
+gdb
 gettext
 gimp
 git
@@ -74,6 +75,7 @@ pciutils
 perl
 php
 php-fpm
+pinfo
 pkgconf
 procps-ng
 psmisc
