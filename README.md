@@ -8,7 +8,7 @@ Clone this repo to `~/.config`
 
 To install the packages in `.config/package-list.txt`, run the follwing command as root or using `sudo`:
 ```
-pacman -S --needed - < pkglist.txt
+pacman -S --needed - < ~/.config/package-list.txt
 ```
 
 ### Setting Up Configuration Files
