@@ -11,3 +11,6 @@
 !elinks/bookmarks
 !elinks/elinks.conf
 !myclirc
+!generate-package-list.sh
+!package-list.txt
+!pacman-hooks/
