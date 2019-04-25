@@ -23,6 +23,7 @@ alias gp='git push'
 alias gpu='git pull'
 alias gs='git status'
 alias pa='php artisan'
+alias pas='php artisan serve'
 alias pat='php artisan tinker'
 alias pah='php artisan help'
 alias pam='php artisan migrate '
@@ -51,7 +52,6 @@ alias nrw='npm run watch'
 alias sysh='shutdown now'
 alias sysu='systemctl suspend'
 alias elinks='elinks -config-dir ~/.config/elinks'
-alias mycli='mycli --myclirc ~/.config/myclirc -u root'
 
 # Enable git tab completion
 source ~/.config/git-completion.bash
