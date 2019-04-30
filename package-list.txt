@@ -85,6 +85,7 @@ ruby-sass
 rxvt-unicode
 s-nail
 screen
+scrot
 sed
 shadow
 sudo
