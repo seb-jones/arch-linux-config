@@ -178,3 +178,5 @@ bar {
 client.focused              #516fa3 #516fa3 #ffffff #2e9ef4     #516fa3 
 client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
 client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
+
+hide_edge_borders smart
