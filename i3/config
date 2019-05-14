@@ -184,3 +184,5 @@ client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
 client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
 
 hide_edge_borders smart
+
+exec --no-startup-id ./set_wallpaper.sh
