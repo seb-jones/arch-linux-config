@@ -48,7 +48,7 @@ inetutils
 iproute2
 iputils
 jfsutils
-keepassx2
+keepass
 less
 libtool
 libxss
@@ -66,9 +66,11 @@ mariadb
 mdadm
 mlocate
 nano
+nasm
 netctl
 networkmanager
 nginx
+npm
 openssh
 pacman
 patch
