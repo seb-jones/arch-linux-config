@@ -188,3 +188,5 @@ hide_edge_borders smart
 exec --no-startup-id ~/.config/i3/set_wallpaper.sh
 
 exec setxkbmap -option caps:swapescape
+
+exec xrdb -merge ~/.config/Xresources

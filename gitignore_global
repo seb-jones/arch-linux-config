@@ -52,3 +52,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+create_vendor_tags.sh
