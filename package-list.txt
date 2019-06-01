@@ -82,6 +82,7 @@ pinfo
 pkgconf
 procps-ng
 psmisc
+pwgen
 python-pip
 reiserfsprogs
 ruby-sass
