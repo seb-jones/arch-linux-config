@@ -39,6 +39,7 @@ alias pams='php artisan make:seeder'
 alias pamf='php artisan make:factory'
 alias pad='php artisan dusk'
 alias padm='php artisan dusk:make'
+alias pamt='php artisan make:test'
 alias pads='php artisan db:seed'
 alias pah='php artisan help'
 alias par='php artisan relate'
@@ -61,6 +62,7 @@ alias syre='systemctl reboot'
 alias elinks='elinks -config-dir ~/.config/elinks'
 alias bashsrc='source ~/.bashrc'
 alias cls='clear'
+alias phpunit='./vendor/bin/phpunit'
 
 # Enable git tab completion
 source ~/.config/git-completion.bash
