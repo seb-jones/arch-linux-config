@@ -23,14 +23,15 @@ Note that the path must be absolute. In addition, you will need to change some a
 * `~/.config/generate-package-list.sh`
 * `~/.config/pacman-hooks/generate-package-list.hook`
 
-#### URxvt
-Insert this to the top of `~/.xinitrc`:
+#### i3 Window Manager
+Append this to `~/.xinitrc`:
 ```
-[[ -f ~/.config/Xresources ]] && xrdb -merge ~/.config/Xresources
+setxkbmap gb
+exec i3
 ```
 
 #### Bash
-Set `~/.bashrc`:
+Append this to `~/.bashrc`:
 ```
 source ~/.config/bashrc
 ```
