@@ -53,3 +53,8 @@ if [ -e /root/.config/i3status/config ]; then rm /root/.config/i3status/config; 
 
 ln -s "$HOME_DIRECTORY/.config/i3status/config" "/root/.config/i3status/config"
 
+# Add package list generation hooks to pacman.conf
+
+cp /etc/pacman.conf /tmp/pacman.conf.bak
+
+sed -Ei -e 's%\#HookDir.+%HookDir = /home/seb/.config/pacman-hooks/%g' /etc/pacman.conf
