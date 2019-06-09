@@ -63,13 +63,13 @@ alias nrw='npm run watch'
 alias sysh='shutdown now'
 alias sysu='systemctl suspend'
 alias syre='systemctl reboot'
-alias elinks='elinks -config-dir ~/.config/elinks'
-alias bashsrc='source ~/.bashrc'
+alias elinks='elinks -config-dir /home/seb/.config/elinks'
+alias bashsrc='source /home/seb/.bashrc'
 alias cls='clear'
 alias unit='./vendor/bin/phpunit'
 
 # Enable git tab completion
-source ~/.config/git-completion.bash
+source /home/seb/.config/git-completion.bash
 
 # Custom Prompt
 BOLD="\[$(tput bold)\]"
@@ -79,7 +79,7 @@ YELLOW="\[$(tput setaf 3)\]"
 RESET="\[$(tput sgr0)\]"
 GIT="\$(__git_ps1)"
 
-source ~/.config/git-prompt.sh
+source /home/seb/.config/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUPSTREAM=1
 export PS1="\n${BOLD}[\u]${ITALIC}${BLUE} \w${RESET}${BOLD}${YELLOW}${GIT}${RESET}\n${BOLD}\$${RESET} "

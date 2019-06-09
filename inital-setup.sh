@@ -33,6 +33,9 @@ append_if_not_in_file "exec i3" "$HOME_DIRECTORY/.xinitrc"
 
 # Apply configs to root
 
+append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
+	"/root/.bashrc"
+
 # Link to .xinitrc
 if [ -e /root/.xinitrc ]; then rm /root/.xinitrc; fi
 
