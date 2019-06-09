@@ -13,6 +13,8 @@ pacman -S --needed - < ~/.config/package-list.txt
 
 ### Setting Up Configuration Files
 
+Execute `inital-setup.sh` as the root user. This will append lines to various config files and set up symlinks so that root also makes use of said configs.
+
 #### Package List Generation
 
 Add the following to the `[options]` section of `/etc/pacman.conf`:
@@ -22,23 +24,3 @@ HookDir = /home/seb/.config/pacman-hooks/
 Note that the path must be absolute. In addition, you will need to change some absolute paths in the following files:
 * `~/.config/generate-package-list.sh`
 * `~/.config/pacman-hooks/generate-package-list.hook`
-
-#### i3 Window Manager
-Append this to `~/.xinitrc`:
-```
-setxkbmap gb
-exec i3
-```
-
-#### Bash
-Append this to `~/.bashrc`:
-```
-source ~/.config/bashrc
-```
-
-#### Dmenu
-Add exclusions to `usr/bin/dmenu_run` using `grep`:
-```
-#!/bin/sh
-dmenu_path | grep -vf ~/.config/dmenu_exclude | dmenu "$@" | ${SHELL:-"/bin/sh"} &
-```
