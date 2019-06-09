@@ -87,3 +87,6 @@ export PS4="+ $LINENO: "
 
 # ELinks homepage
 export WWW_HOME='https://duckduckgo.com'
+
+# Set readline to Vi Mode
+set -o vi

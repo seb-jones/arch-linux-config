@@ -194,4 +194,4 @@ exec setxkbmap -option caps:swapescape
 exec xrdb -merge /home/seb/.config/Xresources
 
 assign [class="chrome"]  1
-assign [class="vim"]    3
+assign [class="vim"]     2
