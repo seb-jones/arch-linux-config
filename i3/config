@@ -190,7 +190,7 @@ exec --no-startup-id ~/.config/i3/set_wallpaper.sh
 
 exec setxkbmap -option caps:swapescape
 
-exec xrdb -merge ~/.config/Xresources
+exec xrdb -merge /home/seb/.config/Xresources
 
 assign [class="chrome"]  1
 assign [class="vim"]    3

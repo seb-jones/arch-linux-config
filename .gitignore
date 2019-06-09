@@ -13,5 +13,6 @@
 !elinks/elinks.conf
 !myclirc
 !generate-package-list.sh
+!inital-setup.sh
 !package-list.txt
 !pacman-hooks/
