@@ -26,10 +26,10 @@ urxvt.background: #101010
 urxvt.foreground: #ffffff
 
 ! Fonts
-urxvt*font: xft:DejaVu Sans Mono-10
-urxvt*boldFont: xft:DejaVu Sans Mono:bold:autohint=true
-urxvt*italicFont: xft:DejaVu Sans Mono:italic:autohint=true
-urxvt*boldItalicFont: xft:DejaVu Sans Mono:italic:bold:autohint=true
+urxvt*font: -xos4-terminus-bold-*-normal-*-24-*-*-*-*-*-*-*
+urxvt*boldFont: -xos4-terminus-bold-*-normal-*-24-*-*-*-*-*-*-*
+urxvt*italicFont: -xos4-terminus-*-*-normal-*-24-*-*-*-*-*-*-*
+urxvt*boldItalicFont: -xos4-terminus-*-*-normal-*-24-*-*-*-*-*-*-*
 
 ! Misc
 urxvt*intensityStyles:        true
