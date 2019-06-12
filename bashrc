@@ -92,3 +92,6 @@ export WWW_HOME='https://duckduckgo.com'
 
 # Set readline to Vi Mode
 set -o vi
+
+# Add Global Composer packages to PATH
+PATH=$PATH:/home/seb/.config/composer/vendor/bin
