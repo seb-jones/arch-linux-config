@@ -13,8 +13,6 @@ do
     then
 
         FILE=$(echo "$LINE" | sed -E -e 's/(\[|\])//g')
-        echo $FILE
-        exit 1
 
     elif [ -n $FILE ]
     then
