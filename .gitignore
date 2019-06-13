@@ -17,3 +17,5 @@
 !package-list.txt
 !pacman-hooks/
 !lock.sh
+!generate-local-configs.sh
+!Xresources-template
