@@ -205,3 +205,4 @@ bindsym $mod+Shift+apostrophe exec /home/seb/.config/lock.sh
 # Screen Brightness Control
 bindsym $mod+F11 exec "xbacklight -time 50 -steps 10 -dec 10"
 bindsym $mod+F12 exec "xbacklight -time 50 -steps 10 -inc 10"
+bindsym $mod+Shift+o exec "xset dpms force off"
