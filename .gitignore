@@ -16,3 +16,4 @@
 !inital-setup.sh
 !package-list.txt
 !pacman-hooks/
+!lock.sh
