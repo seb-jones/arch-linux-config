@@ -19,3 +19,4 @@
 !lock.sh
 !generate-local-configs.sh
 !Xresources-template
+!local-settings.example
