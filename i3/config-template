@@ -193,7 +193,8 @@ exec --no-startup-id ~/.config/i3/set_wallpaper.sh
 
 exec xrdb -merge /home/seb/.config/Xresources
 
-assign [class="chrome"]  1
+assign [class="chrome"]  3
+assign [class="firefox"] 3
 assign [class="vim"]     2
 
 # print all window titles bold
