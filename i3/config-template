@@ -200,6 +200,12 @@ assign [class="vim"]     2
 # print all window titles bold
 for_window [class=".*"] title_format " %title"
 
+# Float the Peek window to make it work correctly
+for_window [class="Peek"] floating enable
+
+# Start compton to enable fading and transparency
+exec compton
+
 # Lock i3
 bindsym $mod+Shift+apostrophe exec /home/seb/.config/lock.sh
 

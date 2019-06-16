@@ -9,6 +9,7 @@ bison
 bzip2
 chromium
 composer
+compton
 coreutils
 cryptsetup
 ctags
