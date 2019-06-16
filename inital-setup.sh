@@ -31,7 +31,11 @@ append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
 append_if_not_in_file "setxkbmap gb" "$HOME_DIRECTORY/.xinitrc"
 append_if_not_in_file "exec i3" "$HOME_DIRECTORY/.xinitrc"
 
+ln -s /home/seb/.config/inputrc /home/seb/.inputrc
+
+#
 # Apply configs to root
+#
 
 append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
 	"/root/.bashrc"
@@ -61,3 +65,5 @@ ln -s "$HOME_DIRECTORY/.config/i3status/config" "/root/.config/i3status/config"
 cp /etc/pacman.conf /tmp/pacman.conf.bak
 
 sed -Ei -e 's%\#HookDir.+%HookDir = /home/seb/.config/pacman-hooks/%g' /etc/pacman.conf
+
+ln -s /home/seb/.config/inputrc /root/.inputrc
