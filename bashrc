@@ -15,6 +15,9 @@ alias gc='git commit'
 alias gcm='git commit -m'
 alias gca='git commit -am'
 alias gch='git checkout'
+alias gchd='git checkout develop'
+alias gm='git merge'
+alias gmd='git merge develop'
 alias gd='git diff'
 alias gf='git fetch'
 alias gfo='git fetch origin'
@@ -69,6 +72,7 @@ alias elinks='elinks -config-dir /home/seb/.config/elinks'
 alias bashsrc='source /home/seb/.bashrc'
 alias cls='clear'
 alias unit='./vendor/bin/phpunit'
+alias gur='gulp refresh'
 
 # Enable git tab completion
 source /home/seb/.config/git-completion.bash
@@ -90,5 +94,5 @@ export PS4="+ $LINENO: "
 # ELinks homepage
 export WWW_HOME='https://duckduckgo.com'
 
-# Add Global Composer packages to PATH
-PATH=$PATH:/home/seb/.config/composer/vendor/bin
+# Add Global Composer/NPM packages to PATH
+PATH=$PATH:/home/seb/.config/composer/vendor/bin:/home/seb/.nvm
