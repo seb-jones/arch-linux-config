@@ -21,3 +21,4 @@
 !local-settings.example
 !pull.sh
 !inputrc
+!dunst
