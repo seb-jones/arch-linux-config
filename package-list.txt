@@ -20,6 +20,7 @@ dialog
 diffutils
 dmenu
 dos2unix
+dunst
 e2fsprogs
 efibootmgr
 elinks
@@ -57,6 +58,8 @@ iw
 jfsutils
 keepass
 less
+libnotify
+libreoffice-fresh
 libtool
 libxss
 licenses

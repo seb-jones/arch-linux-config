@@ -1,16 +1,18 @@
 # Simple config file.
 # Any line beginning with a hash is a comment.
-# Variables take the form KEY=value.
+# [path] indicates a file to be generated.
+# Variables take the form KEY="value".
+# Values MUST be in quotes.
 # Whitespace-sensitive.
 
 [i3/config]
 
-I3_WINDOW_TITLE_FONT=DejaVu Sans 15
-I3_BAR_FONT=DejaVu Sans 12
+I3_WINDOW_TITLE_FONT="DejaVu Sans 15"
+I3_BAR_FONT="DejaVu Sans 12"
 
 [Xresources]
 
-URXVT_FONT=-xos4-terminus-bold-*-normal-*-22-*-*-*-*-*-*-*
-URXVT_BOLD_FONT=-xos4-terminus-bold-*-normal-*-22-*-*-*-*-*-*-*
-URXVT_ITALIC_FONT=-xos4-terminus-*-*-normal-*-22-*-*-*-*-*-*-*
-URXVT_BOLD_ITALIC_FONT=-xos4-terminus-*-*-normal-*-22-*-*-*-*-*-*-*
+URXVT_FONT="xft:DejaVu Sans Mono-15"
+URXVT_BOLD_FONT="xft:DejaVu Sans Mono:bold:autohint=true"
+URXVT_ITALIC_FONT="xft:DejaVu Sans Mono:italic:autohint=true"
+URXVT_BOLD_ITALIC_FONT="xft:DejaVu Sans Mono:italic:bold:autohint=true"

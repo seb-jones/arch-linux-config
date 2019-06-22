@@ -19,7 +19,7 @@ do
     then
 
         KEY=$(echo "$LINE" | grep -oE "^[^=]+")
-        VALUE=$(echo "$LINE" | grep -oE "[^=]+$")
+        VALUE=$(echo "$LINE" | grep -oP "(?<=\").+(?=\")")
 
         sed -i -e "s/%%$KEY%%/$VALUE/" $FILE
 
