@@ -22,9 +22,6 @@ tags.vendor
 # Persistent undo
 [._]*.un~
 
-create_vendor_tags.bat
-directories_to_tag.seb
-
 #
 # WINDOWS
 #
