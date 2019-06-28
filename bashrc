@@ -76,6 +76,11 @@ alias cls='clear'
 alias unit='./vendor/bin/phpunit'
 alias gur='gulp refresh'
 alias scroff='xset dpms force off'
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -a'
+alias la='ls -a'
+alias lh='ls -lh'
 
 # Enable git tab completion
 source /home/seb/.config/git-completion.bash
