@@ -176,3 +176,8 @@ xorg-xwininfo
 xorg-xwud
 xterm
 zip
+zsh
+zsh-autosuggestions
+zsh-completions
+zsh-doc
+zsh-history-substring-search
