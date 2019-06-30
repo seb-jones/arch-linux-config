@@ -27,6 +27,10 @@ fi
 append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
 	"$HOME_DIRECTORY/.bashrc"
 
+# If the .zshrc does not already have our source command, append it
+append_if_not_in_file "source $HOME_DIRECTORY/.config/zshrc" \
+	"$HOME_DIRECTORY/.zshrc"
+
 # If the .xinitrc does not have our setxkbmap and exec commands, append them
 append_if_not_in_file "setxkbmap gb" "$HOME_DIRECTORY/.xinitrc"
 append_if_not_in_file "exec i3" "$HOME_DIRECTORY/.xinitrc"
@@ -39,6 +43,9 @@ ln -s /home/seb/.config/inputrc /home/seb/.inputrc
 
 append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
 	"/root/.bashrc"
+
+append_if_not_in_file "source $HOME_DIRECTORY/.config/zshrc" \
+	"/root/.zshrc"
 
 # Link to .xinitrc
 if [ -e /root/.xinitrc ]; then rm /root/.xinitrc; fi
