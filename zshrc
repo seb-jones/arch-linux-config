@@ -27,7 +27,7 @@ git_prompt() {
     then
         if [[ -n $(git status -s 2> /dev/null) ]]
         then
-            echo "%F{red}($BRANCH *)%f"
+            echo "%F{yellow}($BRANCH *)%f"
         else
             echo "($BRANCH)"
         fi
@@ -38,6 +38,8 @@ NEWLINE=$'\n'
 PROMPT='${NEWLINE}%B[%n]%b %B%F{blue}%~%f%b $(git_prompt) ${NEWLINE}$ '
 
 source /home/seb/.config/aliases
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
