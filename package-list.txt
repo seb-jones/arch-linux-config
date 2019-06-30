@@ -181,3 +181,4 @@ zsh-autosuggestions
 zsh-completions
 zsh-doc
 zsh-history-substring-search
+zsh-syntax-highlighting
