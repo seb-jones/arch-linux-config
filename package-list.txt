@@ -41,6 +41,7 @@ gimp
 git
 glibc
 gnumeric
+go
 grep
 grub
 gtk2fontsel
@@ -58,6 +59,7 @@ iw
 jfsutils
 keepass
 less
+lftp
 libnotify
 libreoffice-fresh
 libtool
@@ -72,11 +74,11 @@ m4
 make
 man-db
 man-pages
-mariadb
 mdadm
 mlocate
 nano
 nasm
+neovim
 netctl
 networkmanager
 nginx
@@ -95,8 +97,10 @@ pkgconf
 procps-ng
 psmisc
 pwgen
+python-neovim
 python-pip
 reiserfsprogs
+ripgrep
 ruby-sass
 rxvt-unicode
 s-nail
@@ -119,6 +123,7 @@ vifm
 which
 wireless_tools
 wpa_supplicant
+xdotool
 xf86-video-fbdev
 xf86-video-intel
 xf86-video-vesa
