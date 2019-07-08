@@ -179,6 +179,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xsel
 xterm
 zip
 zsh
