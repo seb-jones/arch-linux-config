@@ -1,8 +1,6 @@
 /*
 !.gitignore
 !gitignore_global
-!i3/set_wallpaper.sh
-!i3status/
 !dmenu_exclude
 !bashrc
 !README.md
@@ -23,5 +21,9 @@
 !zshrc
 !aliases
 
-!i3/config.example
+!pre-commit.sh
+
+!i3
+i3/config
+
 !Xresources.example
