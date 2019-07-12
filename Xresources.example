@@ -1,0 +1,41 @@
+! Key maps
+urxvt.keysym.Control-Left:    \033[1;5D
+urxvt.keysym.Control-Right:    \033[1;5C
+urxvt.keysym.Control-f:    command:\033]721;16\007
+urxvt.keysym.Control-b:    command:\033]720;16\007
+urxvt.keysym.Control-v:    eval:paste_clipboard
+
+! Colors
+urxvt*color0:      #33303b
+urxvt*color8:      #4f4b58
+urxvt*color1:      #ff5c57
+urxvt*color9:      #ff5c57
+urxvt*color2:      #5af78e
+urxvt*color10:     #5af78e
+urxvt*color3:      #f3f99d
+urxvt*color11:     #f3f99d
+urxvt*color4:      #57c7ff
+urxvt*color12:     #57c7ff
+urxvt*color5:      #ff6ac1
+urxvt*color13:     #ff6ac1
+urxvt*color6:      #9aedfe
+urxvt*color14:     #9aedfe
+urxvt*color7:      #eff0eb
+urxvt*color15:     #eff0eb
+urxvt.background: #101010
+urxvt.foreground: #ffffff
+
+! Fonts
+urxvt*font: xft:DejaVu Sans Mono-10
+urxvt*boldFont: xft:DejaVu Sans Mono:bold
+urxvt*italicFont: xft:DejaVu Sans Mono:italic
+urxvt*boldItalicFont: xft:DejaVu Sans Mono:italic:bold
+
+! Misc
+urxvt*intensityStyles:        true
+urxvt*skipBuiltinGlyphs:    true
+urxvt*linespace:            0
+urxvt.scrollBar: false
+urxvt.saveLines: 10000
+urxvt.cursorBlink: true
+urxvt.pointerBlank: true
