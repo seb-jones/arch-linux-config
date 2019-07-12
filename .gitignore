@@ -17,10 +17,11 @@
 !pacman-hooks/
 !lock.sh
 !generate-local-configs.sh
-!Xresources-template
-!local-settings.example
 !pull.sh
 !inputrc
 !dunst
 !zshrc
 !aliases
+
+!i3/config.example
+!Xresources.example
