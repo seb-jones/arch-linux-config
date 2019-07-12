@@ -1,6 +1,5 @@
 #!/bin/bash
-# Should be executed by root. Sets up configuration files and symlinks root's
-# configs to the user's, so that they can share.
+# Should be executed as superuser. Sets up configuration files automatically.
 
 # Arguments:
 # $1 - String to append if not in file
@@ -38,36 +37,8 @@ append_if_not_in_file "exec i3" "$HOME_DIRECTORY/.xinitrc"
 ln -s /home/seb/.config/inputrc /home/seb/.inputrc
 
 #
-# Apply configs to root
-#
-
-append_if_not_in_file "source $HOME_DIRECTORY/.config/bashrc" \
-	"/root/.bashrc"
-
-append_if_not_in_file "source $HOME_DIRECTORY/.config/zshrc" \
-	"/root/.zshrc"
-
-# Link to .xinitrc
-if [ -e /root/.xinitrc ]; then rm /root/.xinitrc; fi
-
-ln -s "$HOME_DIRECTORY/.xinitrc" "/root/.xinitrc"
-
-
-# Link to i3 config
-mkdir -p /root/.config/i3
-
-if [ -e /root/.config/i3/config ]; then rm /root/.config/i3/config; fi
-
-ln -s "$HOME_DIRECTORY/.config/i3/config" "/root/.config/i3/config"
-
-# Link to i3 status config
-mkdir -p /root/.config/i3status
-
-if [ -e /root/.config/i3status/config ]; then rm /root/.config/i3status/config; fi
-
-ln -s "$HOME_DIRECTORY/.config/i3status/config" "/root/.config/i3status/config"
-
 # Add package list generation hooks to pacman.conf
+#
 
 cp /etc/pacman.conf /tmp/pacman.conf.bak
 
