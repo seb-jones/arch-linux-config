@@ -116,6 +116,7 @@ tar
 terminus-font
 texinfo
 tree
+ufw
 unzip
 usbutils
 util-linux
