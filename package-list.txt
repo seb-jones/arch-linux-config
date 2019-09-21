@@ -1,4 +1,5 @@
 acpi
+alsa-utils
 autoconf
 autocutsel
 automake
@@ -18,6 +19,7 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+discount
 dmenu
 dos2unix
 dunst
@@ -51,12 +53,14 @@ htop
 i3-wm
 i3lock
 i3status
+imagemagick
 inetutils
 intel-ucode
 iproute2
 iputils
 iw
 jfsutils
+jp2a
 keepass
 less
 lftp
@@ -83,11 +87,13 @@ neovim
 netctl
 networkmanager
 nginx
+noto-fonts
 npm
 openssh
 pacman
 patch
 pciutils
+pcmanfm
 peek
 perl
 php
@@ -98,8 +104,8 @@ pkgconf
 procps-ng
 psmisc
 pwgen
-python-neovim
 python-pip
+python-pynvim
 reiserfsprogs
 ripgrep
 ruby-sass
@@ -122,6 +128,7 @@ usbutils
 util-linux
 vi
 vifm
+vlc
 which
 wireless_tools
 wpa_supplicant
@@ -183,6 +190,7 @@ xorg-xwininfo
 xorg-xwud
 xsel
 xterm
+youtube-dl
 zip
 zsh
 zsh-autosuggestions

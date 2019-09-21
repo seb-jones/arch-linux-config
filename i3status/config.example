@@ -17,7 +17,7 @@ order += "cpu_usage"
 #order += "cpu_temperature"
 order += "disk /"
 order += "wireless _first_"
-order += "ethernet _first_"
+# order += "ethernet _first_"
 #order += "load"
 #order += "tztime local"
 
