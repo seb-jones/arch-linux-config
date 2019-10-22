@@ -1,8 +1,11 @@
 acpi
 alsa-utils
+arc-icon-theme
+audacity
 autoconf
 autocutsel
 automake
+base
 bash
 bc
 binutils
@@ -55,6 +58,7 @@ i3lock
 i3status
 imagemagick
 inetutils
+inkscape
 intel-ucode
 iproute2
 iputils
@@ -78,7 +82,6 @@ m4
 make
 man-db
 man-pages
-mariadb
 mdadm
 mlocate
 nano
@@ -87,9 +90,12 @@ neovim
 netctl
 networkmanager
 nginx
+nmap
 noto-fonts
 npm
+ntfs-3g
 openssh
+p7zip
 pacman
 pandoc
 patch

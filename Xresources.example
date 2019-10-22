@@ -22,14 +22,15 @@ urxvt*color6:      #9aedfe
 urxvt*color14:     #9aedfe
 urxvt*color7:      #eff0eb
 urxvt*color15:     #eff0eb
-urxvt.background: #101010
-urxvt.foreground: #ffffff
+urxvt.depth:       32
+urxvt.background:  rgba:0000/0000/0000/8888
+urxvt.foreground:  #ffffff
 
 ! Fonts
-urxvt*font: xft:DejaVu Sans Mono-10
-urxvt*boldFont: xft:DejaVu Sans Mono:bold
-urxvt*italicFont: xft:DejaVu Sans Mono:italic
-urxvt*boldItalicFont: xft:DejaVu Sans Mono:italic:bold
+urxvt*font: xft:DejaVu Sans Mono-15
+urxvt*boldFont: xft:DejaVu Sans Mono:bold:autohint=true
+urxvt*italicFont: xft:DejaVu Sans Mono:italic:autohint=true
+urxvt*boldItalicFont: xft:DejaVu Sans Mono:italic:bold:autohint=true
 
 ! Misc
 urxvt*intensityStyles:        true
