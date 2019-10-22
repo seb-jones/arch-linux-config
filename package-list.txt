@@ -19,7 +19,6 @@ device-mapper
 dhcpcd
 dialog
 diffutils
-discount
 dmenu
 dos2unix
 dunst
@@ -47,6 +46,7 @@ go
 grep
 grub
 gtk2fontsel
+guetzli
 gvim
 gzip
 htop
@@ -91,6 +91,7 @@ noto-fonts
 npm
 openssh
 pacman
+pandoc
 patch
 pciutils
 pcmanfm
@@ -101,6 +102,7 @@ php-fpm
 php-sqlite
 pinfo
 pkgconf
+pngquant
 procps-ng
 psmisc
 pwgen
@@ -108,9 +110,9 @@ python-pip
 python-pynvim
 reiserfsprogs
 ripgrep
-ruby-sass
 rxvt-unicode
 s-nail
+sassc
 screen
 scrot
 sed
