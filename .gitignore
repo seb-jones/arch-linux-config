@@ -35,3 +35,5 @@ i3status/config
 !gtk-3.0
 gtk-3.0/*
 !gtk-3.0/settings.ini
+
+!Kvantum/
