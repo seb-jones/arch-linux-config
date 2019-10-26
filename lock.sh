@@ -7,6 +7,8 @@ WHITE='#ffffffbb'
 RED='#bb0000bb'
 
 i3lock \
+-i ~/.config/screen-lock-overlay.png \
+-t \
 --insidecolor=$DARK_GREY      \
 --ringcolor=$BLUE        \
 --linecolor=$LIGHT_GREY        \

@@ -14,6 +14,7 @@
 !package-list.txt
 !pacman-hooks/
 !lock.sh
+!screen-lock-overlay.png
 !generate-local-configs.sh
 !pull.sh
 !inputrc
