@@ -1,5 +1,6 @@
 acpi
 alsa-utils
+arc-gtk-theme
 arc-icon-theme
 audacity
 autoconf
@@ -53,7 +54,7 @@ guetzli
 gvim
 gzip
 htop
-i3-wm
+i3-gaps
 i3lock
 i3status
 imagemagick
@@ -65,7 +66,8 @@ iputils
 iw
 jfsutils
 jp2a
-keepass
+keepassxc
+kvantum-qt5
 less
 lftp
 libnotify

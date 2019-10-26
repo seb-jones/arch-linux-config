@@ -218,6 +218,5 @@ bindsym $mod+F11 exec "xbacklight -time 50 -steps 5 -dec 5"
 bindsym $mod+F12 exec "xbacklight -time 50 -steps 5 -inc 5"
 bindsym $mod+Shift+o exec "xset dpms force off"
 
-
 # Start notification daemon
 exec dunst
