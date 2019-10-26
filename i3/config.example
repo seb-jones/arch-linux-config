@@ -219,3 +219,6 @@ bindsym $mod+Shift+o exec "xset dpms force off"
 
 # Start notification daemon
 exec dunst
+
+# Sleep when the play media button is pressed
+bindsym XF86AudioPlay exec systemctl suspend

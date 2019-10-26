@@ -9,25 +9,27 @@ RED='#bb0000bb'
 notify-send "DUNST_COMMAND_PAUSE"
 
 i3lock \
-    -n \
     -i ~/.config/screen-lock-overlay.png \
-    -t \
-    --insidecolor=$DARK_GREY      \
-    --ringcolor=$BLUE        \
-    --linecolor=$LIGHT_GREY        \
-    --separatorcolor=$BLUE   \
-    --insidevercolor=$DARK_GREY   \
-    --ringvercolor=$WHITE     \
-    --insidewrongcolor=$DARK_GREY \
-    --ringwrongcolor=$RED   \
-    --verifcolor=$WHITE        \
-    --wrongcolor=$WHITE        \
-    --keyhlcolor=$WHITE       \
-    --timecolor=$WHITE        \
-    --datecolor=$WHITE        \
-    --bshlcolor=$DARK_GREY        \
+    --tiling \
+    --nofork \
+    --pass-media-keys \
+    --indicator \
     --clock \
-    --indicator           \
-    --blur 6             
+    --blur 6 \
+    --radius 110 \
+    --insidecolor=$DARK_GREY \
+    --ringcolor=$BLUE \
+    --linecolor=$LIGHT_GREY \
+    --separatorcolor=$BLUE \
+    --insidevercolor=$DARK_GREY \
+    --ringvercolor=$WHITE \
+    --insidewrongcolor=$DARK_GREY \
+    --ringwrongcolor=$RED \
+    --verifcolor=$WHITE \
+    --wrongcolor=$WHITE \
+    --keyhlcolor=$WHITE \
+    --timecolor=$WHITE \
+    --datecolor=$WHITE \
+    --bshlcolor=$DARK_GREY
 
 notify-send "DUNST_COMMAND_RESUME"
