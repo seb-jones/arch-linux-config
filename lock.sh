@@ -1,21 +1,42 @@
-#!/bin/bash
+#!/bin/sh
 
-if [ -e '/home/seb/.fehbg' ]
-then
+DARK_GREY='#333333bb'
+LIGHT_GREY='#999999bb'
+BLUE='#008fd6bb'
+WHITE='#ffffffbb'
+RED='#bb0000bb'
 
-    IMAGE=`grep -o "'[^']*\.png'" /home/seb/.fehbg | sed -E -e "s/(^'|'$)//g"`
-
-    # Make image path absolute if it is relative
-    echo "$IMAGE" | grep -E '(^/|^~)' || IMAGE="/home/seb/$IMAGE"
-
-    # If $IMAGE is a valid file, lock with it
-    ls "$IMAGE" 2> /dev/null
-    if [ $? -eq 0 ]
-    then
-        i3lock -tiling -i $IMAGE
-        exit 0
-    fi
-
-fi
-        
-i3lock
+i3lock \
+--insidecolor=$DARK_GREY      \
+--ringcolor=$BLUE        \
+--linecolor=$LIGHT_GREY        \
+--separatorcolor=$BLUE   \
+\
+--insidevercolor=$DARK_GREY   \
+--ringvercolor=$WHITE     \
+\
+--insidewrongcolor=$DARK_GREY \
+--ringwrongcolor=$RED   \
+\
+--verifcolor=$WHITE        \
+--wrongcolor=$WHITE        \
+--keyhlcolor=$WHITE       \
+--timecolor=$WHITE        \
+--datecolor=$WHITE        \
+--bshlcolor=$DARK_GREY        \
+--clock \
+--indicator           \
+--blur 6             
+# --layoutcolor=$DARK_GREY      \
+# --keylayout 2         
+# --screen 1            \
+# --timestr="%H:%M:%S"  \
+# --datestr="%A, %m %Y" \
+# --clock               \
+# --veriftext="Drinking verification can..."
+# --wrongtext="Nope!"
+# --textsize=20
+# --modsize=10
+# --timefont=comic-sans
+# --datefont=monofur
+# etc
