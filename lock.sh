@@ -6,7 +6,7 @@ BLUE='#008fd6bb'
 WHITE='#ffffffbb'
 RED='#bb0000bb'
 
-notify-send "DUNST_COMMAND_PAUSE"
+notify-send "DUNST_COMMAND_PAUSE" &
 
 i3lock \
     -i ~/.config/screen-lock-overlay.png \
@@ -15,8 +15,13 @@ i3lock \
     --pass-media-keys \
     --indicator \
     --clock \
+    --timestr="%l:%M%p" \
+    --timepos="ix:iy - 10" \
+    --datestr="%A %e %B" \
+    --datesize=22 \
+    --datepos="tx:ty + 40" \
     --blur 6 \
-    --radius 110 \
+    --radius 150 \
     --insidecolor=$DARK_GREY \
     --ringcolor=$BLUE \
     --linecolor=$LIGHT_GREY \
