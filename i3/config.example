@@ -181,28 +181,27 @@ bar {
 }
 
 # colours                   border  backgr. text    indicator   child_border
-client.focused              #516fa3 #516fa3 #ffffff #2e9ef4     #516fa3 
-client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
-client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #a8b7d1
+client.focused              #ffffff #ffffff #ffffff #2e9ef4     #008fd6
+client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #999999
+client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #999999
 
-hide_edge_borders smart
+# hide_edge_borders smart
+
+for_window [class=".*"] border pixel 2
+
+gaps inner 6
+
+smart_gaps on
+
+smart_borders no_gaps
 
 workspace_auto_back_and_forth yes
-
-default_border none
 
 exec --no-startup-id ~/.config/i3/set_wallpaper.sh
 
 #exec setxkbmap -option caps:swapescape
 
 exec xrdb -merge /home/seb/.config/Xresources
-
-assign [class="chrome"]  3
-assign [class="firefox"] 3
-assign [class="vim"]     2
-
-# print all window titles bold
-for_window [class=".*"] title_format " %title"
 
 # Float the Peek window to make it work correctly
 for_window [class="Peek"] floating enable
