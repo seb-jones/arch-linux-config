@@ -18,7 +18,6 @@ compton
 coreutils
 cryptsetup
 ctags
-dbeaver
 device-mapper
 dhcpcd
 dialog
