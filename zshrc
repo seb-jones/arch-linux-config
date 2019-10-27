@@ -50,3 +50,4 @@ unsetopt complete_aliases
 export KEYTIMEOUT=1
 
 export QT_STYLE_OVERRIDE=kvantum
+export QT_SCALE_FACTOR=1.4

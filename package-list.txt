@@ -1,4 +1,5 @@
 acpi
+acpid
 alsa-utils
 arc-gtk-theme
 arc-icon-theme
