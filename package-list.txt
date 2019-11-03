@@ -62,6 +62,7 @@ imagemagick
 inetutils
 inkscape
 intel-ucode
+iotop
 iproute2
 iputils
 iw

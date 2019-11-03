@@ -18,9 +18,11 @@
 !generate-local-configs.sh
 !pull.sh
 !inputrc
-!dunst
 !zshrc
 !aliases
+
+!dunst
+dunst/dunstrc
 
 !pre-commit.sh
 
