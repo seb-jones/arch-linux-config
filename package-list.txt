@@ -135,6 +135,7 @@ terminus-font
 texinfo
 tree
 ttf-hack
+udiskie
 ufw
 unzip
 usbutils

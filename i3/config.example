@@ -17,7 +17,7 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Noto Sans 15
+font pango:Noto Sans Display Light 15
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -173,7 +173,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     status_command i3status
-    font pango:Noto Sans 15
+    font pango:Noto Sans Display Light 15
 
     colors {
         background #222222 
@@ -192,9 +192,9 @@ bar {
 }
 
 # colours                   border  backgr. text    indicator   child_border
-client.focused              #ffffff #ffffff #ffffff #2e9ef4     #999999
-client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #000000
-client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #000000
+client.focused              #ffffff #ffffff #ffffff #2e9ef4     #008fd6
+client.focused_inactive     #a8b7d1 #a8b7d1 #000000 #2e9ef4     #999999
+client.unfocused            #a8b7d1 #a8b7d1 #000000 #2e9ef4     #999999
 
 # hide_edge_borders smart
 
