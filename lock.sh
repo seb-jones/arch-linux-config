@@ -15,11 +15,16 @@ i3lock \
     --pass-media-keys \
     --indicator \
     --clock \
-    --timestr="%l:%M%p" \
+    --time-font="Noto Sans" \
+    --timestr="%l:%M %p" \
     --timepos="ix:iy - 10" \
+    --date-font="Noto Sans" \
     --datestr="%A %e %B" \
     --datesize=22 \
     --datepos="tx:ty + 40" \
+    --wrong-font="Noto Sans" \
+    --layout-font="Noto Sans" \
+    --verif-font="Noto Sans" \
     --blur 6 \
     --radius 150 \
     --insidecolor=$DARK_GREY \
