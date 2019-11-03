@@ -6,27 +6,24 @@ BLUE='#008fd6bb'
 WHITE='#ffffffbb'
 RED='#bb0000bb'
 
-notify-send "DUNST_COMMAND_PAUSE" &
+notify-send "DUNST_COMMAND_PAUSE"
+
+IMAGE_DIRECTORY=~/pictures/wallpapers/pokemon-fusion-frames
+IMAGE_COUNT=$(ls "$IMAGE_DIRECTORY" | grep 'fs8\.png$' | wc -l)
+IMAGE_FILENAME=$(printf "%05d-fs8.png" $((1 + RANDOM % $IMAGE_COUNT)))
+IMAGE_PATH="$IMAGE_DIRECTORY/$IMAGE_FILENAME"
+
+if [[ ! -f $IMAGE_PATH ]]; then
+    IMAGE_PATH="$IMAGE_DIRECTORY/00001-fs8.png"
+fi
 
 i3lock \
-    -i ~/.config/screen-lock-overlay.png \
-    --tiling \
+    -i $IMAGE_PATH \
     --nofork \
     --pass-media-keys \
-    --indicator \
-    --clock \
-    --time-font="Noto Sans" \
-    --timestr="%l:%M %p" \
-    --timepos="ix:iy - 10" \
-    --date-font="Noto Sans" \
-    --datestr="%A %e %B" \
-    --datesize=22 \
-    --datepos="tx:ty + 40" \
-    --wrong-font="Noto Sans" \
-    --layout-font="Noto Sans" \
-    --verif-font="Noto Sans" \
-    --blur 6 \
-    --radius 150 \
+    --wrong-font="Noto Sans Display Light" \
+    --layout-font="Noto Sans Display Light" \
+    --verif-font="Noto Sans Display Light" \
     --insidecolor=$DARK_GREY \
     --ringcolor=$BLUE \
     --linecolor=$LIGHT_GREY \
