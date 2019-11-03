@@ -6,31 +6,47 @@ urxvt.keysym.Control-b:    command:\033]720;16\007
 urxvt.keysym.Control-v:    eval:paste_clipboard
 
 ! Colors
-urxvt*color0:      #33303b
-urxvt*color8:      #4f4b58
-urxvt*color1:      #ff5c57
-urxvt*color9:      #ff5c57
-urxvt*color2:      #5af78e
-urxvt*color10:     #5af78e
-urxvt*color3:      #f3f99d
-urxvt*color11:     #f3f99d
-urxvt*color4:      #57c7ff
-urxvt*color12:     #57c7ff
-urxvt*color5:      #ff6ac1
-urxvt*color13:     #ff6ac1
-urxvt*color6:      #9aedfe
-urxvt*color14:     #9aedfe
-urxvt*color7:      #eff0eb
-urxvt*color15:     #eff0eb
-urxvt.depth:       32
-urxvt.background:  rgba:3333/3333/3333/cccc
-urxvt.foreground:  #ffffff
+! urxvt*color0:      #33303b
+! urxvt*color8:      #4f4b58
+! urxvt*color1:      #ff5c57
+! urxvt*color9:      #ff5c57
+! urxvt*color2:      #5af78e
+! urxvt*color10:     #5af78e
+! urxvt*color3:      #f3f99d
+! urxvt*color11:     #f3f99d
+! urxvt*color4:      #57c7ff
+! urxvt*color12:     #57c7ff
+! urxvt*color5:      #ff6ac1
+! urxvt*color13:     #ff6ac1
+! urxvt*color6:      #9aedfe
+! urxvt*color14:     #9aedfe
+! urxvt*color7:      #eff0eb
+! urxvt*color15:     #eff0eb
+! urxvt.depth:       32
+urxvt.color0:      #080808
+urxvt.color1:      #aa0000
+urxvt.color2:      #00aa00
+urxvt.color3:      #f7b500
+urxvt.color4:      #0000aa
+urxvt.color5:      #b300f7
+urxvt.color6:      #009edc
+urxvt.color7:      #e0e0aa
+urxvt.color8:      #080808
+urxvt.color9:      #aa0000
+urxvt.color10:     #00aa00
+urxvt.color11:     #f7b500
+urxvt.color12:     #0000aa
+urxvt.color13:     #b300f7
+urxvt.color14:     #009edc
+urxvt.color15:     #e0e0dd
+urxvt.background:  #fefefe
+urxvt.foreground:  #080808
 
 ! Fonts
-urxvt*font: xft:DejaVu Sans Mono-15
-urxvt*boldFont: xft:DejaVu Sans Mono:bold:autohint=true
-urxvt*italicFont: xft:DejaVu Sans Mono:italic:autohint=true
-urxvt*boldItalicFont: xft:DejaVu Sans Mono:italic:bold:autohint=true
+urxvt*font: xft:Hack-16
+urxvt*boldFont: xft:Hack:bold:autohint=true
+urxvt*italicFont: xft:Hack:italic:autohint=true
+urxvt*boldItalicFont: xft:Hack:italic:bold:autohint=true
 
 ! Misc
 urxvt*intensityStyles:        true

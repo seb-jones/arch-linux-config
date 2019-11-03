@@ -39,6 +39,7 @@ flex
 gawk
 gcc
 gcc-libs
+gcolor3
 gdb
 gettext
 gifski
@@ -89,6 +90,7 @@ mlocate
 nano
 nasm
 neovim
+neovim-qt
 netctl
 networkmanager
 nginx
@@ -132,6 +134,7 @@ tar
 terminus-font
 texinfo
 tree
+ttf-hack
 ufw
 unzip
 usbutils
