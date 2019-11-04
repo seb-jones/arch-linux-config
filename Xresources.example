@@ -6,44 +6,44 @@ urxvt.keysym.Control-b:    command:\033]720;16\007
 urxvt.keysym.Control-v:    eval:paste_clipboard
 
 ! Colors
-! urxvt*color0:      #33303b
-! urxvt*color8:      #4f4b58
-! urxvt*color1:      #ff5c57
-! urxvt*color9:      #ff5c57
-! urxvt*color2:      #5af78e
-! urxvt*color10:     #5af78e
-! urxvt*color3:      #f3f99d
-! urxvt*color11:     #f3f99d
-! urxvt*color4:      #57c7ff
-! urxvt*color12:     #57c7ff
-! urxvt*color5:      #ff6ac1
-! urxvt*color13:     #ff6ac1
-! urxvt*color6:      #9aedfe
-! urxvt*color14:     #9aedfe
-! urxvt*color7:      #eff0eb
-! urxvt*color15:     #eff0eb
-! urxvt.depth:       32
-urxvt.color0:      #080808
-urxvt.color1:      #c94c4c
-urxvt.color2:      #82b74b
-urxvt.color3:      #8b6f47
-urxvt.color4:      #36486b
-urxvt.color5:      #b300f7
-urxvt.color6:      #009edc
-urxvt.color7:      #e0e0aa
-urxvt.color8:      #888888
-urxvt.color9:      #c94c4c
-urxvt.color10:     #82b74b
-urxvt.color11:     #8b6f47
-urxvt.color12:     #36486b
-urxvt.color13:     #b300f7
-urxvt.color14:     #009edc
-urxvt.color15:     #e0e0dd
-urxvt.background:  #fefefe
-urxvt.foreground:  #080808
+urxvt*color0:      #33303b
+urxvt*color8:      #4f4b58
+urxvt*color1:      #ff5c57
+urxvt*color9:      #ff5c57
+urxvt*color2:      #5af78e
+urxvt*color10:     #5af78e
+urxvt*color3:      #f3f99d
+urxvt*color11:     #f3f99d
+urxvt*color4:      #57c7ff
+urxvt*color12:     #57c7ff
+urxvt*color5:      #ff6ac1
+urxvt*color13:     #ff6ac1
+urxvt*color6:      #9aedfe
+urxvt*color14:     #9aedfe
+urxvt*color7:      #eff0eb
+urxvt*color15:     #eff0eb
+urxvt.depth:       32
+! urxvt.color0:      #080808
+! urxvt.color1:      #c94c4c
+! urxvt.color2:      #82b74b
+! urxvt.color3:      #8b6f47
+! urxvt.color4:      #36486b
+! urxvt.color5:      #b300f7
+! urxvt.color6:      #009edc
+! urxvt.color7:      #e0e0aa
+! urxvt.color8:      #888888
+! urxvt.color9:      #c94c4c
+! urxvt.color10:     #82b74b
+! urxvt.color11:     #8b6f47
+! urxvt.color12:     #36486b
+! urxvt.color13:     #b300f7
+! urxvt.color14:     #009edc
+! urxvt.color15:     #e0e0dd
+urxvt.background:  #000000
+urxvt.foreground:  #ffffff
 
 ! Fonts
-urxvt*font: xft:Hack-16
+urxvt*font: xft:Hack-10
 urxvt*boldFont: xft:Hack:bold:autohint=true
 urxvt*italicFont: xft:Hack:italic:autohint=true
 urxvt*boldItalicFont: xft:Hack:italic:bold:autohint=true

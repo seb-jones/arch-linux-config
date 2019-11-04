@@ -6,20 +6,22 @@ BLUE='#008fd6bb'
 WHITE='#ffffffbb'
 RED='#bb0000bb'
 
-notify-send "DUNST_COMMAND_PAUSE"
-
 IMAGE_DIRECTORY=~/pictures/wallpapers/pokemon-fusion-frames
 IMAGE_COUNT=$(ls "$IMAGE_DIRECTORY" | grep 'fs8\.png$' | wc -l)
-IMAGE_FILENAME=$(printf "%05d-fs8.png" $((1 + RANDOM % $IMAGE_COUNT)))
+RAND=$(php -r "echo rand(1, $IMAGE_COUNT);")
+IMAGE_FILENAME=$(printf "%05d-fs8.png" $((1 + (RAND % IMAGE_COUNT))))
 IMAGE_PATH="$IMAGE_DIRECTORY/$IMAGE_FILENAME"
 
 if [[ ! -f $IMAGE_PATH ]]; then
     IMAGE_PATH="$IMAGE_DIRECTORY/00001-fs8.png"
 fi
 
+notify-send "DUNST_COMMAND_PAUSE"
+
 i3lock \
     -i $IMAGE_PATH \
     --nofork \
+    --tiling \
     --pass-media-keys \
     --wrong-font="Noto Sans Display Light" \
     --layout-font="Noto Sans Display Light" \
