@@ -48,6 +48,3 @@ unsetopt complete_aliases
 
 # Vi Mode Settings
 export KEYTIMEOUT=1
-
-export QT_STYLE_OVERRIDE=kvantum
-export QT_SCALE_FACTOR=1
