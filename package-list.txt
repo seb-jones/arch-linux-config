@@ -35,6 +35,7 @@ file
 filesystem
 findutils
 firefox
+firefox-tridactyl
 flex
 gawk
 gcc
@@ -88,6 +89,7 @@ man-db
 man-pages
 mdadm
 mlocate
+mupdf
 nano
 nasm
 neovim
@@ -134,8 +136,10 @@ systemd-sysvcompat
 tar
 terminus-font
 texinfo
+texlive-core
 tree
 ttf-hack
+typespeed
 udiskie
 ufw
 unzip
