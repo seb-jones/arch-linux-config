@@ -112,6 +112,7 @@ perl
 php
 php-fpm
 php-sqlite
+picom
 pinfo
 pkgconf
 pngquant
