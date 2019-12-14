@@ -33,6 +33,7 @@ fakeroot
 feh
 file
 filesystem
+filezilla
 findutils
 firefox
 firefox-tridactyl
