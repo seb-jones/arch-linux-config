@@ -19,6 +19,7 @@ composer
 coreutils
 cryptsetup
 ctags
+dbeaver
 device-mapper
 dhcpcd
 dialog
@@ -47,6 +48,7 @@ gettext
 gifski
 gimp
 git
+glew
 glibc
 gnumeric
 go
@@ -88,6 +90,7 @@ m4
 make
 man-db
 man-pages
+mariadb
 mdadm
 mlocate
 mupdf
@@ -130,6 +133,7 @@ s-nail
 sassc
 screen
 scrot
+sdl2_ttf
 sed
 shadow
 sudo
@@ -168,7 +172,6 @@ xorg-luit
 xorg-server
 xorg-server-common
 xorg-server-devel
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
