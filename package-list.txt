@@ -2,6 +2,7 @@ acpi
 acpid
 alsa-utils
 apache
+arandr
 arc-gtk-theme
 arc-icon-theme
 audacity
@@ -15,8 +16,10 @@ binutils
 bison
 bzip2
 chromium
+clang
 composer
 coreutils
+cppcheck
 cryptsetup
 ctags
 dbeaver
@@ -72,6 +75,7 @@ iputils
 iw
 jfsutils
 jp2a
+jq
 keepassxc
 kvantum-qt5
 less
@@ -136,6 +140,7 @@ scrot
 sdl2_ttf
 sed
 shadow
+sqlite-doc
 sudo
 sysfsutils
 systemd-sysvcompat
@@ -154,6 +159,7 @@ util-linux
 vi
 vifm
 vlc
+wget
 which
 wireless_tools
 wpa_supplicant
