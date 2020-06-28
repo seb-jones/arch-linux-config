@@ -156,6 +156,7 @@ ufw
 unzip
 usbutils
 util-linux
+valgrind
 vi
 vifm
 vlc
