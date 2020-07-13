@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 DARK_GREY='#333333bb'
 LIGHT_GREY='#999999bb'
