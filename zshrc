@@ -46,6 +46,3 @@ bindkey '^J' history-substring-search-down
 setopt correct
 
 unsetopt complete_aliases
-
-# Vi Mode Settings
-export KEYTIMEOUT=1
