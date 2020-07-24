@@ -7,6 +7,7 @@ setopt INC_APPEND_HISTORY
 setopt extendedglob
 unsetopt beep
 bindkey -v
+bindkey '^N' autosuggest-accept
 
 zstyle :compinstall filename '/home/seb/.zshrc'
 
@@ -39,8 +40,8 @@ PROMPT='${NEWLINE}%B[%n]%b %B%F{blue}%~%f%b $(git_prompt) ${NEWLINE}$ '
 
 source /home/seb/.config/aliases
 
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+bindkey '^K' history-substring-search-up
+bindkey '^J' history-substring-search-down
 
 setopt correct
 
