@@ -15,6 +15,7 @@ bc
 binutils
 bison
 bzip2
+chicken
 chromium
 clang
 composer
@@ -40,6 +41,7 @@ filesystem
 filezilla
 findutils
 firefox
+firefox-tree-style-tab
 firefox-tridactyl
 flex
 gawk
@@ -130,6 +132,7 @@ psmisc
 pwgen
 python-pip
 python-pynvim
+redshift
 reiserfsprogs
 ripgrep
 rxvt-unicode
@@ -140,14 +143,17 @@ scrot
 sdl2_ttf
 sed
 shadow
+simplescreenrecorder
 sqlite-doc
 sudo
 sysfsutils
 systemd-sysvcompat
 tar
+tcl
 terminus-font
 texinfo
 texlive-core
+tk
 tree
 ttf-hack
 typespeed
