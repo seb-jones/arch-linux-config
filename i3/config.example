@@ -233,3 +233,9 @@ exec dunst
 
 # Sleep when the play media button is pressed
 bindsym XF86AudioPlay exec systemctl suspend
+
+# Start clipboard manager daemon
+exec clipmenud
+
+# Bind Mod+P to open the clipboard manager
+bindsym $mod+p exec clipmenu
