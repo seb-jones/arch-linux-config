@@ -250,7 +250,7 @@ exec dunst
 bindsym XF86AudioPlay exec systemctl suspend
 
 # Start clipboard manager daemon
-exec clipmenud
+exec CM_INGORE_WINDOW="vpn" clipmenud
 
 # Bind Mod+P to open the clipboard manager
 bindsym $mod+p exec clipmenu
