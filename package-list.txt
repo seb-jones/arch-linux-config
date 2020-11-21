@@ -66,7 +66,6 @@ gvim
 gzip
 htop
 i3-gaps
-i3lock-color
 i3status
 imagemagick
 inetutils
@@ -92,6 +91,7 @@ linux
 linux-firmware
 linux-headers
 logrotate
+luit
 lvm2
 m4
 make
@@ -122,6 +122,7 @@ peek
 perl
 php
 php-fpm
+php-imagick
 php-sqlite
 picom
 pinfo
@@ -166,6 +167,7 @@ valgrind
 vi
 vifm
 vlc
+webkit2gtk
 wget
 which
 wireless_tools
@@ -182,7 +184,6 @@ xorg-fonts-75dpi
 xorg-fonts-misc
 xorg-fonts-type1
 xorg-iceauth
-xorg-luit
 xorg-server
 xorg-server-common
 xorg-server-devel
