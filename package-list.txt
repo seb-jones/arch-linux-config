@@ -14,6 +14,7 @@ bash
 bc
 binutils
 bison
+blender
 bzip2
 chicken
 chromium
@@ -45,6 +46,7 @@ firefox
 firefox-tree-style-tab
 firefox-tridactyl
 flex
+flowblade
 gawk
 gcc
 gcc-libs
@@ -100,7 +102,6 @@ man-pages
 mariadb
 mdadm
 mlocate
-mupdf
 nano
 nasm
 neovim
