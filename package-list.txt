@@ -40,7 +40,6 @@ fakeroot
 feh
 file
 filesystem
-filezilla
 findutils
 firefox
 firefox-tree-style-tab
