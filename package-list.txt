@@ -14,7 +14,6 @@ bash
 bc
 binutils
 bison
-blender
 bzip2
 chicken
 chromium
@@ -130,6 +129,8 @@ pkgconf
 pngquant
 procps-ng
 psmisc
+pulseaudio
+pulseaudio-alsa
 pwgen
 python-pip
 python-pynvim
@@ -141,6 +142,7 @@ s-nail
 sassc
 screen
 scrot
+sdl2_image
 sdl2_ttf
 sed
 shadow
