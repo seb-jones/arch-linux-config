@@ -24,7 +24,6 @@ coreutils
 cppcheck
 cryptsetup
 ctags
-dbeaver
 device-mapper
 dhcpcd
 dialog
@@ -122,6 +121,7 @@ perl
 php
 php-fpm
 php-imagick
+php-intl
 php-sqlite
 picom
 pinfo
