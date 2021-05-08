@@ -25,3 +25,6 @@ export WWW_HOME='https://duckduckgo.com'
 
 # Add Global Composer/NPM packages to PATH
 PATH=$PATH:/home/seb/.config/composer/vendor/bin:/home/seb/.nvm
+
+# FZF Bash integration
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
