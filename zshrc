@@ -9,7 +9,7 @@ unsetopt beep
 bindkey -v
 bindkey '^N' autosuggest-accept
 
-zstyle :compinstall filename '~/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -Uz compinit
 compinit
@@ -38,7 +38,7 @@ git_prompt() {
 NEWLINE=$'\n'
 PROMPT='${NEWLINE}%B[%n]%b %B%F{blue}%~%f%b $(git_prompt) ${NEWLINE}$ '
 
-source ./aliases
+source "$HOME/config/arch/aliases"
 
 bindkey '^K' history-substring-search-up
 bindkey '^J' history-substring-search-down
