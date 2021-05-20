@@ -9,7 +9,7 @@ unsetopt beep
 bindkey -v
 bindkey '^N' autosuggest-accept
 
-zstyle :compinstall filename '/home/seb/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -38,7 +38,7 @@ git_prompt() {
 NEWLINE=$'\n'
 PROMPT='${NEWLINE}%B[%n]%b %B%F{blue}%~%f%b $(git_prompt) ${NEWLINE}$ '
 
-source /home/seb/.config/aliases
+source ./aliases
 
 bindkey '^K' history-substring-search-up
 bindkey '^J' history-substring-search-down
