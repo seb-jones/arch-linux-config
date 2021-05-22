@@ -38,7 +38,9 @@ git_prompt() {
 NEWLINE=$'\n'
 PROMPT='${NEWLINE}%B[%n]%b %B%F{blue}%~%f%b $(git_prompt) ${NEWLINE}$ '
 
-source "$HOME/config/arch/aliases"
+this_dir=$(dirname ${(%):-%N})
+
+source "$this_dir/aliases"
 
 bindkey '^K' history-substring-search-up
 bindkey '^J' history-substring-search-down
