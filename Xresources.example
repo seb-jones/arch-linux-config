@@ -1,9 +1,6 @@
 ! Key maps
 urxvt.keysym.Control-Left:    \033[1;5D
 urxvt.keysym.Control-Right:    \033[1;5C
-! urxvt.keysym.Control-f:    command:\033]721;16\007
-! urxvt.keysym.Control-b:    command:\033]720;16\007
-urxvt.keysym.Control-v:    eval:paste_clipboard
 
 ! Colors
 urxvt*color0:      #33303b
@@ -22,6 +19,8 @@ urxvt*color6:      #9aedfe
 urxvt*color14:     #9aedfe
 urxvt*color7:      #eff0eb
 urxvt*color15:     #eff0eb
+urxvt.background:  #111111
+urxvt.foreground:  #ffffff
 urxvt.depth:       32
 ! urxvt.color0:      #080808
 ! urxvt.color1:      #c94c4c
@@ -39,19 +38,11 @@ urxvt.depth:       32
 ! urxvt.color13:     #b300f7
 ! urxvt.color14:     #009edc
 ! urxvt.color15:     #e0e0dd
-urxvt.background:  #000000
-urxvt.foreground:  #ffffff
-
-Xft.autohint: 0
-Xft.lcdfilter: lcddefault
-Xft.hintstyle: hintslight
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
-Xft.dpi: 72
+! urxvt.background:  #fefefe
+! urxvt.foreground:  #080808
 
 ! Fonts
-urxvt*font: xft:Hack-15
+urxvt*font: xft:Hack-16
 urxvt*boldFont: xft:Hack:bold:autohint=true
 urxvt*italicFont: xft:Hack:italic:autohint=true
 urxvt*boldItalicFont: xft:Hack:italic:bold:autohint=true
