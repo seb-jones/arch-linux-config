@@ -16,7 +16,7 @@ if [[ ! -f $IMAGE_PATH ]]; then
     IMAGE_PATH="$IMAGE_DIRECTORY/00001-fs8.png"
 fi
 
-notify-send "DUNST_COMMAND_PAUSE"
+dunstctl set-paused true
 
 i3lock \
     -i $IMAGE_PATH \
@@ -41,4 +41,4 @@ i3lock \
     --datecolor=$WHITE \
     --bshlcolor=$DARK_GREY
 
-notify-send "DUNST_COMMAND_RESUME"
+dunstctl set-paused false
