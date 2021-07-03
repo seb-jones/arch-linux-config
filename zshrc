@@ -4,6 +4,7 @@ SAVEHIST=10000000
 setopt SHARE_HISTORY
 setopt INC_APPEND_HISTORY
 
+setopt autocd
 setopt extendedglob
 unsetopt beep
 bindkey -v
