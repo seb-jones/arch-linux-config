@@ -9,7 +9,7 @@ RED='#bb0000bb'
 dunstctl set-paused true
 
 i3lock \
-    -i "/home/seb/pictures/wallpapers/arch_dark.jpg" \
+    -i "/home/seb/pictures/wallpapers/diana-parkhouse-rnTO4rL78Pc-unsplash.jpg" \
     --nofork \
     --tiling \
     --pass-media-keys \
