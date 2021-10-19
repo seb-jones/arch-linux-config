@@ -101,6 +101,7 @@ mdadm
 mlocate
 nano
 nasm
+neovim
 netctl
 networkmanager
 nmap
@@ -110,6 +111,7 @@ ntfs-3g
 openssh
 p7zip
 pacman
+pacman-contrib
 patch
 pciutils
 pcmanfm
@@ -125,6 +127,7 @@ pulseaudio
 pulseaudio-alsa
 pwgen
 python-pip
+python-pynvim
 python2
 qgis
 redshift
