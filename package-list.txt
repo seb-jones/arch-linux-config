@@ -80,6 +80,7 @@ kitty
 kvantum-qt5
 less
 lftp
+libcaca
 libnotify
 libreoffice-fresh
 libtool
@@ -89,6 +90,7 @@ linux
 linux-firmware
 linux-headers
 logrotate
+lsof
 luit
 lvm2
 m4
@@ -124,6 +126,7 @@ pulseaudio-alsa
 pwgen
 python-pip
 python2
+qgis
 redshift
 reiserfsprogs
 ripgrep
@@ -152,6 +155,7 @@ ttf-hack
 typespeed
 udiskie
 ufw
+unrar
 unzip
 usbutils
 util-linux
