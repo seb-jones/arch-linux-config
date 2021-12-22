@@ -28,8 +28,6 @@ dunst/dunstrc
 
 !i3
 !i3status
-i3/config
-i3status/config
 
 !Xresources.example
 
