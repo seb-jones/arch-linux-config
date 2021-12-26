@@ -34,6 +34,7 @@ dunst
 e2fsprogs
 efibootmgr
 elinks
+ethtool
 fakeroot
 feh
 file
@@ -161,6 +162,7 @@ texinfo
 texlive-core
 tidy
 tk
+tlp
 tree
 ttf-hack
 typespeed
