@@ -151,6 +151,7 @@ sdl2_ttf
 sed
 shadow
 simplescreenrecorder
+smartmontools
 sqlite-doc
 sudo
 sysfsutils
@@ -177,6 +178,7 @@ valgrind
 vi
 vifm
 vim
+vimb
 vlc
 webkit2gtk
 wget
