@@ -80,7 +80,7 @@ jfsutils
 jp2a
 jq
 kitty
-kvantum-qt5
+kvantum
 less
 lftp
 libcaca
