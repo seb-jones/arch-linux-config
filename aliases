@@ -1,5 +1,4 @@
 # Colour Aliases
-alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
 alias less='less -R'
