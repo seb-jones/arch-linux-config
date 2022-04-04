@@ -11,6 +11,7 @@ autocutsel
 automake
 base
 bash
+bat
 bc
 binutils
 bison
@@ -20,6 +21,7 @@ chicken
 chromium
 clang
 clipmenu
+composer
 coreutils
 cppcheck
 cryptsetup
@@ -36,9 +38,11 @@ efibootmgr
 elinks
 ethtool
 fakeroot
+fd
 feh
 file
 filesystem
+filezilla
 findutils
 firefox
 firefox-tree-style-tab
@@ -124,6 +128,8 @@ pciutils
 pcmanfm
 peek
 perl
+php
+php-sqlite
 picom
 pinfo
 pkgconf
@@ -143,7 +149,6 @@ reiserfsprogs
 ripgrep
 rxvt-unicode
 s-nail
-sassc
 screen
 scrot
 sdl2_image
@@ -166,6 +171,8 @@ tk
 tlp
 tree
 ttf-hack
+ttf-lato
+ttf-roboto
 typespeed
 udiskie
 ufw

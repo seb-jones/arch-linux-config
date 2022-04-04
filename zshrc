@@ -49,3 +49,5 @@ bindkey '^J' history-substring-search-down
 setopt correct
 
 unsetopt complete_aliases
+
+export BAT_THEME="OneHalfDark"
