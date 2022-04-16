@@ -18,7 +18,6 @@ bison
 bzip2
 c-client
 chicken
-chromium
 clang
 clipmenu
 composer
@@ -45,8 +44,7 @@ filesystem
 filezilla
 findutils
 firefox
-firefox-tree-style-tab
-firefox-tridactyl
+firefox-developer-edition
 flex
 flowblade
 freetds
@@ -170,6 +168,7 @@ tidy
 tk
 tlp
 tree
+ttc-iosevka
 ttf-hack
 ttf-lato
 ttf-roboto
