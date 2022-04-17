@@ -31,3 +31,6 @@ bind gD composite tabduplicate; tabdetach
 
 " Reduce hint delay
 set hintdelay 100
+
+" Set editor to kitty running neovim
+set editorcmd kitty nvim
