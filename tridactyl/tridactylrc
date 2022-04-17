@@ -1,0 +1,33 @@
+" Settings in this file are mostly adapted from the following examples:
+" https://github.com/tridactyl/tridactyl/blob/master/.tridactylrc
+" https://gist.github.com/BurntSushi/393546a65db38d57cedcfd72c6d89bf3
+
+" This wipes all existing settings. This means that if a setting in this file
+" is removed, then it will return to default. In other words, this file serves
+" as an enforced single point of truth for Tridactyl's configuration.
+sanitize tridactyllocal tridactylsync
+
+" Quake-style >:)
+colourscheme quake
+
+" Unbind tabclose key, since it is too easy to accidentally press and I am 
+" used to <C-w> to close tabs in other applications anyway
+unbind d
+unbind D
+
+" Unbind tridactyls not-very-useful 'page source' and 'cipher' functions
+unbind gf
+unbind g?
+
+" Only hint search results on Google and DuckDuckGo
+bindurl www.google.com f hint -Jc #search div:not(.action-menu) > a
+bindurl www.google.com F hint -Jbc #search div:not(.action-menu) > a
+bindurl ^https://duckduckgo.com f hint -Jc [class~=result__a]
+bindurl ^https://duckduckgo.com F hint -Jbc [class~=result__a]
+
+" Handy multiwindow/multitasking binds
+bind gd tabdetach
+bind gD composite tabduplicate; tabdetach
+
+" Reduce hint delay
+set hintdelay 100
