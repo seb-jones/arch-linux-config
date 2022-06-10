@@ -29,6 +29,7 @@ alias gss='git status'
 alias gst='git stash'
 alias gstp='git stash pop'
 alias gun='git checkout -- .'
+alias gr='git revert'
 alias grh='git reset HEAD'
 alias gbpurge="gb | grep -v develop | sed 's/^/git branch -D/g' | sh -x"
 alias pa='php artisan'
