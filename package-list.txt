@@ -249,6 +249,7 @@ xorg-xwininfo
 xorg-xwud
 xsel
 xterm
+yarn
 youtube-dl
 zip
 zsh
