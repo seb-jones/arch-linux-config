@@ -26,8 +26,8 @@ bindurl ^https://duckduckgo.com f hint -Jc [class~=result__a]
 bindurl ^https://duckduckgo.com F hint -Jbc [class~=result__a]
 
 " Handy multiwindow/multitasking binds
-bind gd tabdetach
-bind gD composite tabduplicate; tabdetach
+bind gd tabduplicate
+bind gD tabdetach
 
 " Reduce hint delay
 set hintdelay 100
