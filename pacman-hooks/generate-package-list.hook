@@ -5,6 +5,5 @@ Type = Package
 Target = *
 
 [Action]
-Description = Updating package list
 When = PostTransaction
 Exec = /home/seb/.config/generate-package-list.sh
