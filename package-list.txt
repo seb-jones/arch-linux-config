@@ -106,7 +106,6 @@ man-pages
 mariadb
 mdadm
 mlocate
-mtools
 nano
 nasm
 neovim
