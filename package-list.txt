@@ -62,6 +62,7 @@ glibc
 gnumeric
 go
 gperf
+grafx2
 grep
 grub
 gtk2fontsel
