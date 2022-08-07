@@ -169,7 +169,6 @@ texinfo
 texlive-core
 tidy
 tk
-tlp
 tree
 ttc-iosevka
 ttf-hack
