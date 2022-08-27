@@ -18,6 +18,7 @@ bison
 bzip2
 c-client
 chicken
+chromium
 clang
 clipmenu
 composer
@@ -147,6 +148,7 @@ qgis
 redshift
 reiserfsprogs
 ripgrep
+rofi
 rxvt-unicode
 s-nail
 screen
