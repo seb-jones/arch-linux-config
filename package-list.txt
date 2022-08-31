@@ -166,7 +166,6 @@ syslinux
 systemd-sysvcompat
 tar
 tcl
-terminus-font
 texinfo
 texlive-core
 tidy
