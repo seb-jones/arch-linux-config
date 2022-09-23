@@ -143,7 +143,6 @@ pulseaudio-alsa
 pwgen
 python-pip
 python-pynvim
-python2
 qgis
 redshift
 reiserfsprogs
