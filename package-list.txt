@@ -60,7 +60,6 @@ gimp
 git
 glew
 glibc
-gnumeric
 go
 gperf
 grafx2
@@ -70,6 +69,7 @@ gtk2fontsel
 guetzli
 gzip
 hexyl
+homebank
 htop
 i3-gaps
 i3status
