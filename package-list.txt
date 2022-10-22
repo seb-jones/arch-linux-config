@@ -18,6 +18,7 @@ bison
 bzip2
 c-client
 chicken
+chromium
 clang
 clipmenu
 composer
@@ -59,7 +60,6 @@ gimp
 git
 glew
 glibc
-gnumeric
 go
 gperf
 grafx2
@@ -69,6 +69,7 @@ gtk2fontsel
 guetzli
 gzip
 hexyl
+homebank
 htop
 i3-gaps
 i3status
@@ -142,11 +143,11 @@ pulseaudio-alsa
 pwgen
 python-pip
 python-pynvim
-python2
 qgis
 redshift
 reiserfsprogs
 ripgrep
+rofi
 rxvt-unicode
 s-nail
 screen
@@ -164,7 +165,6 @@ syslinux
 systemd-sysvcompat
 tar
 tcl
-terminus-font
 texinfo
 texlive-core
 tidy
