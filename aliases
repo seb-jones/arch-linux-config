@@ -100,4 +100,4 @@ alias para='./vendor/bin/paratest'
 alias cfg='cd ~/.config'
 alias fu='fuck'
 alias nu='nvim -c "PlugUpgrade | PlugUpdate"'
-alias dt="date"
+alias d="date"
