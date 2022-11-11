@@ -101,3 +101,4 @@ alias cfg='cd ~/.config'
 alias fu='fuck'
 alias nu='nvim -c "PlugUpgrade | PlugUpdate"'
 alias d="date"
+alias bat="bat --plain"
