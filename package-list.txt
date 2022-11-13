@@ -26,6 +26,7 @@ coreutils
 cppcheck
 cryptsetup
 ctags
+ddcutil
 device-mapper
 dhcpcd
 dialog
