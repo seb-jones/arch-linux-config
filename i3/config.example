@@ -218,9 +218,6 @@ exec xrdb -merge /home/seb/.config/Xresources
 # Float the Peek window to make it work correctly
 for_window [class="Peek"] floating enable
 
-# Start compton to enable fading and transparency
-exec compton --daemon
-
 # Lock i3
 bindsym $mod+Shift+apostrophe exec /home/seb/.config/lock.sh
 
