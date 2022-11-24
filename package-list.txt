@@ -26,6 +26,7 @@ coreutils
 cppcheck
 cryptsetup
 ctags
+ddcutil
 device-mapper
 dhcpcd
 dialog
@@ -131,7 +132,6 @@ peek
 perl
 php
 php-sqlite
-picom
 pinfo
 pkgconf
 pngquant
