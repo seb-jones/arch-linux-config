@@ -16,7 +16,6 @@ bc
 binutils
 bison
 bzip2
-c-client
 chicken
 chromium
 clang
@@ -72,7 +71,7 @@ gzip
 hexyl
 homebank
 htop
-i3-gaps
+i3-wm
 i3status
 imagemagick
 inetutils
