@@ -7,8 +7,8 @@
 " as an enforced single point of truth for Tridactyl's configuration.
 sanitize tridactyllocal tridactylsync
 
-" Quake-style >:)
-colourscheme quake
+" Colour scheme
+colourscheme shydactyl
 
 " Unbind tabclose key, since it is too easy to accidentally press and I am 
 " used to <C-w> to close tabs in other applications anyway
