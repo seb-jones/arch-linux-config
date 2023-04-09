@@ -45,6 +45,10 @@ bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests$ F hint -Jbc .nav-sideb
 bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests/new$ f hint -Jc .nav-sidebar [class~=gl-link], [class~=dropdown-target-project] button, [data-qa-selector="compare_branches_button"]
 bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests/new$ F hint -Jbc .nav-sidebar [class~=gl-link], [class~=dropdown-target-project] button, [data-qa-selector="compare_branches_button"]
 
+" Reduce the amount of hinted items on Gitlab merge requests create pages
+bindurl ^https://gitlab.enovate.co.uk.*/-/issues$ f hint -Jc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=issue-title] a
+bindurl ^https://gitlab.enovate.co.uk.*/-/issues$ F hint -Jbc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=issue-title] a
+
 " Handy multiwindow/multitasking binds
 bind gd tabduplicate
 bind gD tabdetach
