@@ -29,6 +29,9 @@ bindurl ^https://duckduckgo.com F hint -Jbc [class~=result__a]
 bindurl ^https://gitlab.enovate.co.uk.*-/pipelines$ f hint -Jc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
 bindurl ^https://gitlab.enovate.co.uk.*-/pipelines$ F hint -Jbc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
 
+" Reduce the amount of hinted items on Gitlab pipeline show pages
+bindurl ^https://gitlab.enovate.co.uk.*-/pipelines/\d+ f hint -Jc .nav-sidebar [class~=gl-link], .js-pipeline-container .info-well a, .js-pipeline-container .info-well button, .js-pipeline-graph button, .js-pipeline-graph [class~=js-pipeline-graph-job-link]
+
 " Handy multiwindow/multitasking binds
 bind gd tabduplicate
 bind gD tabdetach
