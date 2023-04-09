@@ -25,6 +25,10 @@ bindurl www.google.com F hint -Jbc #search div:not(.action-menu) > a
 bindurl ^https://duckduckgo.com f hint -Jc [class~=result__a]
 bindurl ^https://duckduckgo.com F hint -Jbc [class~=result__a]
 
+" Reduce the amount of hinted items on Gitlab pipeline index pages
+bindurl ^https://gitlab.enovate.co.uk.*-/pipelines$ f hint -Jc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
+bindurl ^https://gitlab.enovate.co.uk.*-/pipelines$ F hint -Jbc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
+
 " Handy multiwindow/multitasking binds
 bind gd tabduplicate
 bind gD tabdetach
@@ -38,3 +42,6 @@ set editorcmd kitty nvim
 " Don't run Tridactyl on some web sites because it doesn't work well, or
 " because the web site has its own keybindings.
 autocmd DocStart mail.google.com mode ignore
+
+" Ex command to copy ticket title
+command yt composite js '"' + document.querySelector('.title__subject-text').innerText + '"' | yank
