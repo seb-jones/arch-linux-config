@@ -64,4 +64,4 @@ set editorcmd kitty nvim
 autocmd DocStart mail.google.com mode ignore
 
 " Ex command to copy ticket title
-command yt composite js `Ticket ${document.querySelector('.ticket-id').innerText}: ${document.querySelector('.title__subject-text').innerText}` | yank
+command yt composite js -r  get-harvest-timer-note.js | yank
