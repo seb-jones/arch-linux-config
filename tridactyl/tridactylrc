@@ -25,30 +25,6 @@ bindurl www.google.com F hint -Jbc #search div:not(.action-menu) > a
 bindurl ^https://duckduckgo.com f hint -Jc [class~=result__a]
 bindurl ^https://duckduckgo.com F hint -Jbc [class~=result__a]
 
-" Reduce the amount of hinted items on Gitlab pipeline index pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/pipelines$ f hint -Jc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
-bindurl ^https://gitlab.enovate.co.uk.*/-/pipelines$ F hint -Jbc .nav-sidebar [class~=gl-link], .pipelines-container .nav-controls [class~=gl-button], .pipelines-container [data-label="Status"] [class~=gl-link]
-
-" Reduce the amount of hinted items on Gitlab pipeline show pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/pipelines/\d+ f hint -Jc .nav-sidebar [class~=gl-link], .js-pipeline-container .info-well a, .js-pipeline-container .info-well button, .js-pipeline-graph button, .js-pipeline-graph [class~=js-pipeline-graph-job-link]
-bindurl ^https://gitlab.enovate.co.uk.*/-/pipelines/\d+ F hint -Jbc .nav-sidebar [class~=gl-link], .js-pipeline-container .info-well a, .js-pipeline-container .info-well button, .js-pipeline-graph button, .js-pipeline-graph [class~=js-pipeline-graph-job-link]
-
-" Reduce the amount of hinted items on Gitlab job show pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/jobs/\d+ f hint -Jc .nav-sidebar [class~=gl-link], [class~=right-sidebar] a, [class~=right-sidebar] button
-bindurl ^https://gitlab.enovate.co.uk.*/-/jobs/\d+ F hint -Jbc .nav-sidebar [class~=gl-link], [class~=right-sidebar] a, [class~=right-sidebar] button
-
-" Reduce the amount of hinted items on Gitlab merge requests index pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests$ f hint -Jc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=merge-request-title] a, [class~=ci-status-link]
-bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests$ F hint -Jbc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=merge-request-title] a, [class~=ci-status-link]
-
-" Reduce the amount of hinted items on Gitlab merge requests create pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests/new$ f hint -Jc .nav-sidebar [class~=gl-link], [class~=dropdown-target-project] button, [data-qa-selector="compare_branches_button"]
-bindurl ^https://gitlab.enovate.co.uk.*/-/merge_requests/new$ F hint -Jbc .nav-sidebar [class~=gl-link], [class~=dropdown-target-project] button, [data-qa-selector="compare_branches_button"]
-
-" Reduce the amount of hinted items on Gitlab merge requests create pages
-bindurl ^https://gitlab.enovate.co.uk.*/-/issues$ f hint -Jc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=issue-title] a
-bindurl ^https://gitlab.enovate.co.uk.*/-/issues$ F hint -Jbc .nav-sidebar [class~=gl-link], .gl-tab-nav-item, .nav-controls [class~=gl-button], [class~=issue-title] a
-
 " Handy multiwindow/multitasking binds
 bind gd tabduplicate
 bind gD tabdetach
