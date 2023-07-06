@@ -103,3 +103,5 @@ alias fu='fuck'
 alias nu='nvim -c "PlugUpgrade | PlugUpdate"'
 alias d="date"
 alias bat="bat --plain"
+alias icat="kitty +kitten icat"
+alias di="kitty +kitten diff"
