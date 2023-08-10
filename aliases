@@ -35,7 +35,7 @@ alias gbpurge="gb | grep -v develop | sed 's/^/git branch -D/g' | sh -x"
 alias pa='php artisan'
 alias pao='php artisan optimize'
 alias pas='php artisan serve'
-alias pat='php artisan tinker'
+alias pat='EDITOR=nvim php artisan tinker'
 alias pah='php artisan help'
 alias pam='php artisan migrate '
 alias pamfs='php artisan migrate:fresh --seed'
